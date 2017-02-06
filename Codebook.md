@@ -1,6 +1,6 @@
 Following is the sequence of operations for the getting tidy data from the training and test dataset: 
-1. Read the data seperately 
-2. Merge the training and test data set 
+1.  Read the data seperately 
+2.  Merge the training and test data set 
 3. Read the activity and label data set 
 4. Change activity into descriptive labels 
 5. Read the features - this is list of column names 
@@ -13,7 +13,7 @@ Following is the sequence of operations for the getting tidy data from the train
 12. Create a text file from #11
 
 Following aare the variable names 
-Subjects
+1. Subjects
 Activity
 TimeBodyAccMeanX
 TimeBodyAccMeanY
