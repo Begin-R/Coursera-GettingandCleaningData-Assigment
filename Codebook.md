@@ -1,6 +1,7 @@
-Following is the sequence of operations for the getting tidy data from the training and test dataset: 
-1.  Read the data seperately 
-2.  Merge the training and test data set 
+Following is the sequence of operations for the getting tidy data from the training and test dataset
+
+1. Read the data seperately 
+2. Merge the training and test data set 
 3. Read the activity and label data set 
 4. Change activity into descriptive labels 
 5. Read the features - this is list of column names 
@@ -13,84 +14,85 @@ Following is the sequence of operations for the getting tidy data from the train
 12. Create a text file from #11
 
 Following aare the variable names 
+
 1. Subjects
-Activity
-TimeBodyAccMeanX
-TimeBodyAccMeanY
-TimeBodyAccMeanZ
-TimeBodyAccStddevX
-TimeBodyAccStddevY
-TimeBodyAccStddevZ
-TimeGravityAccMeanX
-TimeGravityAccMeanY
-TimeGravityAccMeanZ
-TimeGravityAccStddevX
-TimeGravityAccStddevY
-TimeGravityAccStddevZ
-TimeBodyAccJerkMeanX
-TimeBodyAccJerkMeanY
-TimeBodyAccJerkMeanZ
-TimeBodyAccJerkStddevX
-TimeBodyAccJerkStddevY
-TimeBodyAccJerkStddevZ
-TimeBodyGyroMeanX
-TimeBodyGyroMeanY
-TimeBodyGyroMeanZ
-TimeBodyGyroStddevX
-TimeBodyGyroStddevY
-TimeBodyGyroStddevZ
-TimeBodyGyroJerkMeanX
-TimeBodyGyroJerkMeanY
-TimeBodyGyroJerkMeanZ
-TimeBodyGyroJerkStddevX
-TimeBodyGyroJerkStddevY
-TimeBodyGyroJerkStddevZ
-TimeBodyAccMagMean
-TimeBodyAccMagStddev
-TimeGravityAccMagMean
-TimeGravityAccMagStddev
-TimeBodyAccJerkMagMean
-TimeBodyAccJerkMagStddev
-TimeBodyGyroMagMean
-TimeBodyGyroMagStddev
-TimeBodyGyroJerkMagMean
-TimeBodyGyroJerkMagStddev
-FrequencyBodyAccMeanX
-FrequencyBodyAccMeanY
-FrequencyBodyAccMeanZ
-FrequencyBodyAccStddevX
-FrequencyBodyAccStddevY
-FrequencyBodyAccStddevZ
-FrequencyBodyAccMeanFreqX
-FrequencyBodyAccMeanFreqY
-FrequencyBodyAccMeanFreqZ
-FrequencyBodyAccJerkMeanX
-FrequencyBodyAccJerkMeanY
-FrequencyBodyAccJerkMeanZ
-FrequencyBodyAccJerkStddevX
-FrequencyBodyAccJerkStddevY
-FrequencyBodyAccJerkStddevZ
-FrequencyBodyAccJerkMeanFreqX
-FrequencyBodyAccJerkMeanFreqY
-FrequencyBodyAccJerkMeanFreqZ
-FrequencyBodyGyroMeanX
-FrequencyBodyGyroMeanY
-FrequencyBodyGyroMeanZ
-FrequencyBodyGyroStddevX
-FrequencyBodyGyroStddevY
-FrequencyBodyGyroStddevZ
-FrequencyBodyGyroMeanFreqX
-FrequencyBodyGyroMeanFreqY
-FrequencyBodyGyroMeanFreqZ
-FrequencyBodyAccMagMean
-FrequencyBodyAccMagStddev
-FrequencyBodyAccMagMeanFreq
-FrequencyBodyAccJerkMagMean
-FrequencyBodyAccJerkMagStddev
-FrequencyBodyAccJerkMagMeanFreq
-FrequencyBodyGyroMagMean
-FrequencyBodyGyroMagStddev
-FrequencyBodyGyroMagMeanFreq
-FrequencyBodyGyroJerkMagMean
-FrequencyBodyGyroJerkMagStddev
-FrequencyBodyGyroJerkMagMeanFreq
+2. Activity
+3. TimeBodyAccMeanX
+4. TimeBodyAccMeanY
+5. TimeBodyAccMeanZ
+6. TimeBodyAccStddevX
+7. TimeBodyAccStddevY
+8. TimeBodyAccStddevZ
+9. TimeGravityAccMeanX
+10. TimeGravityAccMeanY
+11. TimeGravityAccMeanZ
+12. TimeGravityAccStddevX
+13. TimeGravityAccStddevY
+14. TimeGravityAccStddevZ
+15. TimeBodyAccJerkMeanX
+16. TimeBodyAccJerkMeanY
+17. TimeBodyAccJerkMeanZ
+18. TimeBodyAccJerkStddevX
+19. TimeBodyAccJerkStddevY
+20. TimeBodyAccJerkStddevZ
+21. TimeBodyGyroMeanX
+22. TimeBodyGyroMeanY
+23. TimeBodyGyroMeanZ
+24. TimeBodyGyroStddevX
+25. TimeBodyGyroStddevY
+26. TimeBodyGyroStddevZ
+27. TimeBodyGyroJerkMeanX
+28. TimeBodyGyroJerkMeanY
+29. TimeBodyGyroJerkMeanZ
+30. TimeBodyGyroJerkStddevX
+31. TimeBodyGyroJerkStddevY
+32. TimeBodyGyroJerkStddevZ
+33. TimeBodyAccMagMean
+34. TimeBodyAccMagStddev
+35. TimeGravityAccMagMean
+36. TimeGravityAccMagStddev
+37. TimeBodyAccJerkMagMean
+38. TimeBodyAccJerkMagStddev
+39. TimeBodyGyroMagMean
+40. TimeBodyGyroMagStddev
+41. TimeBodyGyroJerkMagMean
+42. TimeBodyGyroJerkMagStddev
+43. FrequencyBodyAccMeanX
+44. FrequencyBodyAccMeanY
+45. FrequencyBodyAccMeanZ
+46. FrequencyBodyAccStddevX
+47. FrequencyBodyAccStddevY
+48. FrequencyBodyAccStddevZ
+49. FrequencyBodyAccMeanFreqX
+50. FrequencyBodyAccMeanFreqY
+51. FrequencyBodyAccMeanFreqZ
+52. FrequencyBodyAccJerkMeanX
+53. FrequencyBodyAccJerkMeanY
+54. FrequencyBodyAccJerkMeanZ
+55. FrequencyBodyAccJerkStddevX
+56. FrequencyBodyAccJerkStddevY
+57. FrequencyBodyAccJerkStddevZ
+58. FrequencyBodyAccJerkMeanFreqX
+59. FrequencyBodyAccJerkMeanFreqY
+60. FrequencyBodyAccJerkMeanFreqZ
+61. FrequencyBodyGyroMeanX
+62. FrequencyBodyGyroMeanY
+63. FrequencyBodyGyroMeanZ
+64. FrequencyBodyGyroStddevX
+65. FrequencyBodyGyroStddevY
+66. FrequencyBodyGyroStddevZ
+67. FrequencyBodyGyroMeanFreqX
+68. FrequencyBodyGyroMeanFreqY
+69. FrequencyBodyGyroMeanFreqZ
+70. FrequencyBodyAccMagMean
+71. FrequencyBodyAccMagStddev
+72. FrequencyBodyAccMagMeanFreq
+73. FrequencyBodyAccJerkMagMean
+74. FrequencyBodyAccJerkMagStddev
+75. FrequencyBodyAccJerkMagMeanFreq
+76. FrequencyBodyGyroMagMean
+77. FrequencyBodyGyroMagStddev
+78. FrequencyBodyGyroMagMeanFreq
+79. FrequencyBodyGyroJerkMagMean
+80. FrequencyBodyGyroJerkMagStddev
+81. FrequencyBodyGyroJerkMagMeanFreq
