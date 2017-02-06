@@ -2,6 +2,7 @@
 Assignment submission for coursera getting and cleaning data course
 
 Following is the sequence of operations for the getting tidy data from the training and test dataset:
+
 1. Read the data seperately
 2. Merge the training and test data set
 3. Read the activity and label data set 
