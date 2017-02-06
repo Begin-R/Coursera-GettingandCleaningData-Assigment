@@ -1,5 +1,13 @@
-# Coursera-GettingandCleaningData-Assigment
+## Coursera-GettingandCleaningData-Assigment
 Assignment submission for coursera getting and cleaning data course
+
+# Instructions
+* Download run_Analysis.R
+* No need to download the data, the script will download the data 
+* The script assumes you have data.table installed 
+* The script assumes you have enough memory available on desktop/machine to load the test and training data set 
+* The script will produce a avg_tidy data set in the end and write it to the disc
+* Please see details of operations below
 
 Following is the sequence of operations for the getting tidy data from the training and test dataset:
 
