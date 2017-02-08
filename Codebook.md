@@ -5,6 +5,7 @@ The code is written to present the measured data as a tidy data set, the data wa
 1. The data is Organzed by Subjects and Activity 
 
    i. Subjects: Integer from 1 to 30 represents the ID for each Subject
+   
    ii. Activity: 6 seperate activity types were recorded 
    
        * Walkng 
